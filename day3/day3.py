@@ -1,8 +1,6 @@
 import functools as ft
 
-OPEN = '.'
 TREE = '#'
-
 
 def part1(trees_map: list):
     return recorre(trees_map, 3, 1)
